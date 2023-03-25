@@ -16,7 +16,6 @@ const FunStuff = () => {
         width={328}
         height={""}
         src={`https://www.youtube.com/embed/JnXFIismm6U`}
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Embedded youtube"

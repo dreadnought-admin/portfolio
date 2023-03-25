@@ -17,27 +17,27 @@ const About = () => {
         <p>In February 2023 I graduated from Flatiron School's full-stack software engineering program—but I certainly haven't stopped there.
           Through their cirriculum I discovered my affinity for React and we have been awful friends and dear enemies ever since.
         </p>
-        <p>I specialize in:</p>
+        <p className="list-label">I specialize in:</p>
         <ul>
           <li>React</li>
           <li>TypeScript</li>
           <li>JavaScript</li>
           <li>CSS</li>
         </ul>
-        <p>But I'm also decent at:</p>
+        <p className="list-label">But I'm also decent at:</p>
         <ul>
           <li>C#</li>
           <li>Rails</li>
           <li>Firebase</li>
         </ul>
-        <p>Of course I'm familiar with:</p>
+        <p className="list-label">Of course I'm familiar with:</p>
         <ul>
           <li>SQL</li>
           <li>Git</li>
           <li>PostgresQL</li>
           <li>Postman</li>
         </ul>
-        <p>And I'm currently learning:</p>
+        <p className="list-label">And I'm currently learning:</p>
         <ul>
           <li>Angular</li>
           <li>Vite</li>

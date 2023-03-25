@@ -68,6 +68,69 @@ button:focus-visible {
   }
 } */
 
+body {
+  background: url('/images/pin-on-view.gif');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  max-width: 1225px;
+  display: grid;
+  font-family: 'VT323', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1 {
+ color: white; 
+ text-decoration-color: black;
+}
+
+h2 {
+ color: white;
+ text-decoration-color: black;
+ 
+}
+
+h3 {
+ color: #20a5a6;
+ text-decoration-color: black; 
+ text-shadow: 1px 1px black; 
+}
+
+h4 {
+  color: white; 
+}
+
+p {
+  color: white;
+  text-decoration-color: white; 
+}
+
+a {
+  color: lightblue;
+}
+
+li {
+  color: white; 
+}
+
+.list-label {
+  color: #dd5639;
+  text-shadow:  1px white; 
+}
+
+
+
+.navButton {
+  color: white;
+  text-decoration: none;
+  margin: 0em 5em 5em 0
+}
+
 .email {
   background: none;
   border-style: none;
