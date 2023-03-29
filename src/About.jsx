@@ -2,13 +2,13 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
      <article>
         <h1>Hi, I'm Dom.</h1>
         <h3>Wait. I think I already said that.</h3>
         <p>I'm a full-stack developer who has a penchant for React, TS, and ternary operators.</p>
         <p>In July of 2022 I tore my ACL and subsequently my quadriceps tendon while fighting 
-          in the sport, I love, Muay Thai. It <em>pivoted</em> the direction of my life dramatically. Get it? 'Pivot'? 
+          in the sport that I love, Muay Thai. It <em>pivoted</em> the direction of my life dramatically. Get it? 'Pivot'? 
           Because I can't do that anymore.</p>
         <p>I went from a career in the hospitality industry as a bartender to being unable to walk properly over the course of 24 hours. 
           With all of the time I had to sit around and feel sorry for myself, I ended up discovering my affinity for programming. 

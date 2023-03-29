@@ -118,17 +118,47 @@ li {
   color: white; 
 }
 
+.about {
+  margin: 20px; 
+}
+
+.contact {
+  margin: 20px; 
+}
+
+.showcase {
+  margin: 20px; 
+}
+
+.funstuff {
+  margin: 20px; 
+}
+
 .list-label {
   color: #dd5639;
   text-shadow:  1px white; 
 }
 
+.home {
+  margin: 20px
+}
 
 
 .navButton {
   color: white;
   text-decoration: none;
   margin: 0em 5em 5em 0
+}
+
+.contactButton {
+    color: white;
+    text-decoration: none;
+    margin: 0em 5em 5em 0
+
+}
+
+.navButtonBar {
+  margin: 20px;
 }
 
 .email {
