@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji&family=Noto+Serif+JP:wght@500&family=Shojumaru&family=Tillana&family=Trade+Winds&family=VT323&display=swap');
-
 :root {
-  --black: #171219;
-  --white: #f2fbeb;
+  --black: #382b26;
+  --white:  #b8c2b9;
 
-  --demichromeblack: #211e20;
-  --demigrey: #555568;
-  --demigreen: #a0a08b;
-  --demiwhite: #e9efec;
+  --trueblack: #000;
+  --green: #83b07e;
+
+  --tan: #f6e7c1;
+  --grey: #3e3e3e;
 }
 
 body {
-  background-color: var(--demichromeblack);
+  background-color: var(--grey);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +18,7 @@ body {
   margin: 0;
   max-width: 1225px;
   display: grid;
-  font-family: 'Tillana', cursive;
+  color: var(--tan);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -27,18 +26,16 @@ body {
 }
 
 h1 {
- color: var(--demigreen); 
+ color: var(--tan);
  text-decoration-color: black;
 }
 
 h2 {
- color: var(--demiwhite);
  text-decoration-color: black;
- 
 }
 
 h3 {
- color: var(--demigrey);
+  color: var(--white);
  text-decoration-color: black; 
  text-shadow: 1px 1px black; 
 }
@@ -60,12 +57,29 @@ li {
   color: white; 
 }
 
+.home {
+  margin: 25px;
+}
+
+.home > h2 {
+  text-decoration: line-through;
+  text-decoration-color: var(--black);
+}
+
 .about {
-  margin: 20px; 
+  margin: 25px; 
 }
 
 .contact {
-  margin: 20px; 
+  margin: 25px; 
+}
+
+.contact > a {
+  font-size: 1.25rem;
+}
+
+.contact > button {
+  font-size: 1.25rem;
 }
 
 .showcase {
@@ -77,14 +91,11 @@ li {
 }
 
 .list-label {
-  color: var(--demigreen);
+  color: var(--tan);
   text-shadow:  1px white; 
 }
 
-.home {
-  margin: 20px
-}
-
+/* buttons */
 
 .navButton {
   color: white;
@@ -109,27 +120,115 @@ li {
   border-style: none;
 }
 
-/* revamped manga CSS */
+/* project showcase */
 
-.home {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  max-width: 1000px;
- 
+.showcase-container {
+  display: flex;
+  margin-top: 150px;
+  flex-direction: row;
 }
 
-.spacer {
-  padding: 50px;
+/* flip card animation in project showcase */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
 }
 
-.container {
-  max-width: 100%;
-  max-height: 100%;
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
   position: absolute;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: center;
-  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: var(--tan);
+  color: white;
+  height: 300px;
+  max-width: 250px;
+  border-radius: 5%;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back > h1 {
+  color: var(--grey);
+  text-shadow: 2px 2px var(--white);
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.flip-card-back > a  {
+  font-size: 1.25rem;
+  color: var(--grey);
+  text-shadow: 1px 1px var(--black);
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.flip-card-back > p {
+  color: var(--grey);
+  text-transform: lowercase;
+}
+
+
+/* resume button */
+.button-74 {
+  background-color: var(--tan);
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
