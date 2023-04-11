@@ -1,10 +1,16 @@
+import { useLocation } from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
+
+const location = useLocation();
+
   return (
     <div className="navButtonBar">
     <div>
-      <NavLink className="navButton" to="/">take your ball and go back home</NavLink>
+     {location.pathname !=="/" &&
+        <NavLink className="navButton" to="/">home</NavLink>
+      }
       <NavLink className="navButton" to="/about">about me</NavLink>
       <NavLink className="navButton" to="/showcase">current projects</NavLink>
       <NavLink className="navButton" to="/contact">contact</NavLink>
