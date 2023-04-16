@@ -1,69 +1,73 @@
 import React from 'react'
-import spade from '../src/assets/spade.png'
+import 'video-react/dist/video-react.css'; // import css
+
 
 const Showcase = () => {
   return (
   <div className="showcase-container">
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-       <img src={spade} style={{height: "300px", width: "250px"}}></img>
+  <ul>
+      <li><div className="showcase-text">
+      <a href="#"><h1>Cropsey</h1></a>
+        <section>
+          <p>React + Rails + CSS</p>
+          <p>a simple responsive site for the NY-based hardcore band "Cropsey"</p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74">GitHub</button></a>
+        <a href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74">Inspiration</button></a>
       </div>
-      <div class="flip-card-back">
-        <h1>Cropsey</h1>
-        <p>React + Rails + CSS</p>
-        <p>a simple responsive site for the NY-based hardcore band "Cropsey"</p>
-        <a target="_blank" href="https://github.com/dreadnought-admin/authenticated-cropsey"><p>GitHub</p></a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=aJDsA8nlWvY"><p>Demo</p></a>
       </div>
-    </div>
-  </div>
+    </li>
+    <hr></hr>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-       <img src={spade} style={{height: "300px", width: "250px"}}></img>
+    <li>
+      <div className="showcase-text">
+        <a href="#"><h1>Four Corners</h1></a>
+        <section>
+          <p>React Native</p>
+          <p>a client-side travel app that integrates the RESTful Countries API</p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/four-corners"><button className="button-74">GitHub</button></a>
+        <a href="https://www.youtube.com/watch?v=SVjOB3ZN1Ek"><button className="button-74">Inspiration</button></a>
       </div>
-      <div class="flip-card-back">
-        <h1>Four Corners</h1>
-        <p>React Native</p>
-        <p>a client-side travel app that integrates the TripAdvisor && Google Maps APIs</p>
-        <a target="_blank" href="https://github.com/dreadnought-admin/four-corners"><p>GitHub</p></a>
-        <a target="_blank" href="#"><p>Demo</p></a>
       </div>
-    </div>
-  </div>
+    </li>
+    <hr></hr>
+    
+    <li>
+      <div className="showcase-text">
+      <a href="#"><h1>The Black Market</h1></a>
+        <em><h2>currently under reconstruction</h2></em>
+        <section>
+          <p>React + TS + Rails + MUI</p>
+          <p>an e-commerce site for the sale of vintage gothic records</p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/the-black-market-redux"><button className="button-74">GitHub</button></a>
+        <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74">Inspiration</button></a>
+      </div>
+      </div>
+    </li>
+    <hr></hr>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-       <img src={spade} style={{height: "300px", width: "250px"}}></img>
+    <li>
+      <div className="showcase-text">
+        <a href="#"><h1>This Website</h1></a>
+        <section>
+          <p>React + CSS</p>
+          <p>a single-page react native portfolio. extremely original.</p>
+          <p>here's the github so that you can see the html:</p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/portfolio"><button className="button-74">GitHub</button></a>      </div>
       </div>
-      <div class="flip-card-back">
-        <h1>The Black Market</h1>
-        <p>React + TS + Rails + MUI</p>
-        <p>an e-commerce site for the sale of vintage gothic records</p>
-        <a target="_blank" href="https://github.com/dreadnought-admin/the-black-market-redux"><p>GitHub</p></a>
-        <a target="_blank" href="#"><p>Demo</p></a>
-      </div>
-    </div>
-  </div>
+    </li>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-       <img src={spade} style={{height: "300px", width: "250px"}}></img>
-      </div>
-      <div class="flip-card-back">
-        <h1>This Portfolio</h1>
-        <p>React + CSS</p>
-        <p>since react doesn't want you to see the html in the console</p>
-        <a target="_blank" href="https://github.com/dreadnought-admin/portfolio/"><p>GitHub</p></a>
-      </div>
+    <hr></hr>
+
+    </ul>
     </div>
-  </div>
-  
-  </div>
   )
 }
 

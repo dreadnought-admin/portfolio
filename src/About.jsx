@@ -1,12 +1,11 @@
-import React from 'react'
-import resume from '../src/assets/Dom_Alexander_Resume.pdf'
+import React from 'react';
+import resume from '../src/assets/Dom_Alexander_Resume.pdf';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div className="about">
      <article>
-        <h1>Hi, I'm Dom.</h1>
-        <h3>Wait. I think I already said that.</h3>
         <p>I'm a full-stack developer who has a penchant for React, TS, and ternary operators.</p>
         
         <p>In February 2023 I graduated from Flatiron School's full-stack software engineering program—but I certainly haven't stopped there.
@@ -44,6 +43,7 @@ const About = () => {
       </article> 
       <div className="button-74-container">
         <a href={resume} download={resume}><button className="button-74">Resume</button></a>
+        <Link to="/showcase"><button className="button-74">Projects</button></Link>
       </div>
     </div>
   )

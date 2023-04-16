@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Supermercado+One&display=swap');
 :root {
   --black: #382b26;
   --white:  #b8c2b9;
@@ -7,10 +8,35 @@
 
   --tan: #f6e7c1;
   --grey: #3e3e3e;
+
+  --concrete-black: #121216;
+  --concrete-white: #e8e6e1;
+  --concrete-grey: #383845;
+
+  --titan-black: #150413;
+  --titan-grey: #635c6d;
+  --titan-white: #ffffd1;
+
+  --monitor-black: #222323;
+  --monitor-white: #f0f6f0;
 }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+
 body {
-  background-color: var(--grey);
+  background-color: var(--concrete-black);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,15 +44,18 @@ body {
   margin: 0;
   max-width: 1225px;
   display: grid;
-  color: var(--tan);
+  color: var(--white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Linden Hill', serif;
+
+  font-size: 18px;
   overflow-x: hidden;
   position: relative;
 }
 
 h1 {
- color: var(--tan);
+ color: var(--titan-grey);
  text-decoration-color: black;
 }
 
@@ -41,20 +70,27 @@ h3 {
 }
 
 h4 {
-  color: white; 
+  color: var(--white); 
 }
 
 p {
-  color: white;
+  color: var(--white);
   text-decoration-color: white; 
 }
 
 a {
-  color: lightblue;
+  color: var(--concrete-white);
 }
 
 li {
-  color: white; 
+  list-style-type:circle;
+  color: var(--white); 
+}
+
+hr {
+  margin-top: 35px;
+  max-width: 100%;
+  color: var(--white);
 }
 
 .home {
@@ -67,19 +103,22 @@ li {
 }
 
 .about {
-  margin: 25px; 
+  margin: 20px; 
+  max-width: 50%;
 }
 
 .contact {
-  margin: 25px; 
+  margin: 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .contact > a {
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
 .contact > button {
-  font-size: 1.25rem;
+  font-size: 15px;
 }
 
 .showcase {
@@ -91,28 +130,46 @@ li {
 }
 
 .list-label {
-  color: var(--tan);
+  margin-top: 19px;
+  color: var(--titan-grey);
   text-shadow:  1px white; 
 }
 
 /* buttons */
 
 .navButton {
-  color: white;
+  color: var(--white);
   text-decoration: none;
   margin: 0em 5em 5em 0
 }
 
 .contactButton {
-    color: white;
+    color: var(--white);
     text-decoration: none;
-    margin: 0em 5em 5em 0
+    margin: 0em 5em 5em 0;
+}
 
+@media screen and (max-width: 779px) {
+  .contact {
+    flex: 1;
+    flex-direction: row;
+    max-width: 50%;
+  } 
+  .contactButton {
+    left: 0;
+    margin-right: 1.5rem;
+  }
+  .email {
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }   
 }
 
 .navButtonBar {
   margin: 20px;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 .email {
@@ -120,12 +177,43 @@ li {
   border-style: none;
 }
 
+
 /* project showcase */
 
 .showcase-container {
   display: flex;
-  margin-top: 150px;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 20;
+}
+
+/* showcase-video */
+.showcase-video {
+  display: flex;
+  width: 75%;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+
+
+/* showcase-text */
+
+.showcase-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.showcase-text > a {
+  max-width: 250px;
+}
+
+.showcase-text > a {
+  color: var(--concrete-white);
+  text-decoration-color: var(--concrete-grey);
+}
+
+.showcase_text > h2 {
+  border: 1px red solid;
 }
 
 /* flip card animation in project showcase */
@@ -199,30 +287,35 @@ li {
 
 /* resume button */
 .button-74 {
-  background-color: var(--tan);
-  border: 2px solid #422800;
+  background-color: var(--titan-grey);
+  border: 2px solid var(--titan-black);
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: var(--white) 2px 2px 0 0;
+  color: var(--concrete-black);
   cursor: pointer;
   display: inline-block;
+  flex-direction: row;
+  margin-right: 3rem;
+  font-family: 'Linden Hill', serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   padding: 0 18px;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   text-decoration: none;
   user-select: none;
+  margin-top: 3rem;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
 .button-74:hover {
-  background-color: #fff;
+  background-color: var(--titan-grey);
+  color: var(--white);
 }
 
 .button-74:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: var(--concrete-white) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
