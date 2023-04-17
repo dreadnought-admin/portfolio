@@ -229,7 +229,7 @@ hr {
   transition: text-shadow 0.2s linear;
 }
 .confirm_selection:hover {
-  text-shadow: 0 0 5px var(--titan-white);
+  text-shadow: 0 0 5px var(--concrete-grey);
 }
 
 .header-link {
