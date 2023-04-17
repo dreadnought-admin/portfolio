@@ -3,7 +3,7 @@
 <section>
   <article>
     <p>Well, well, well--if it isn't another single-page React portfolio.</p>
-    <p>Links imported by <strong>FontAwesome</strong>.</p>
+    <p>Icon links imported with <strong>FontAwesome</strong>.</p>
   </article>
 </section>
 
