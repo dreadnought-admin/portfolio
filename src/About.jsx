@@ -14,22 +14,19 @@ const About = () => {
         <p className="list-label">Technical Skills:</p>
         <ul>
           <li>HTML5</li>
+          <li>CSS</li>
           <li>React</li>
           <li>React Native</li>
           <li>TypeScript</li>
-          <li>JavaScript</li>
           <li>C#</li>
           <li>Ruby on Rails</li>
-          <li>CSS</li>
         </ul>
         <p className="list-label">Soft Skills:</p>
         <ul>
-          <li>C#</li>
           <li>Firebase</li>
-        
+          <li>PostgresQL</li>
           <li>SQL</li>
           <li>Git</li>
-          <li>PostgresQL</li>
           <li>Postman</li>
         </ul>
         <p className="list-label">And I'm currently learning:</p>
@@ -42,8 +39,8 @@ const About = () => {
         <p>I'm currently searching for any junior developer opportunities and think hearing from you would be just grand.</p>
       </article> 
       <div className="button-74-container">
-        <a href={resume} download={resume}><button className="button-74">Resume</button></a>
-        <Link to="/showcase"><button className="button-74">Projects</button></Link>
+        <a href={resume} download={resume}><button className="button-74 confirm_selection">Resume</button></a>
+        <Link to="/showcase"><button className="button-74 confirm_selection">Projects</button></Link>
       </div>
     </div>
   )
