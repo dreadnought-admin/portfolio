@@ -28,7 +28,7 @@ const App = () => {
           <Route exact path="/contact" element={<Contact />}/>
           <Route exact path="/email" element={<ButtonMailto/>}/>
         </Routes>
-        <SocialMediaBar />
+        
     </div>
   )
 }

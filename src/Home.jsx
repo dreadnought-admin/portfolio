@@ -13,7 +13,7 @@ const Home = () => {
         <h2>react && typescript apps</h2>
         <h2>efficient && effective solutions</h2>
         <h2>curated user experiences</h2>
-        <h2 style={{textDecoration: "none", color: "#635c6d"}}>cool shit.</h2>
+        <h2 style={{textDecoration: "none", color: "#635c6d"}}>cool stuff.</h2>
       </div> 
       <Spacer />
       <div>
