@@ -13,7 +13,6 @@ import Nav from './Nav'
 import Showcase from './Showcase'
 import Contact from './Contact'
 import ButtonMailto from './ButtonMailto'
-import SocialMediaBar from './SocialMediaBar';
 
 const App = () => {
 

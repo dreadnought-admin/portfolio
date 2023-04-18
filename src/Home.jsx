@@ -2,7 +2,6 @@ import React from 'react'
 import Spacer from './Spacer'
 import About from './About'
 import Contact from './Contact'
-import Showcase from './Showcase'
 
 
 const Home = () => {
