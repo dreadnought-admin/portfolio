@@ -24,14 +24,14 @@ const About = () => {
         <p className="list-label">Soft Skills:</p>
         <ul>
           <li>Firebase</li>
-          <li>PostgresQL</li>
+          <li>PostgreSQL</li>
           <li>SQL</li>
           <li>Git</li>
           <li>Postman</li>
         </ul>
         <p className="list-label">And I'm currently learning:</p>
         <ul>
-          <li>Flask</li>
+          <li>C</li>
           <li>Python</li>
           <li>Sass</li>
           <li>MUI</li>
