@@ -7,7 +7,7 @@ const Showcase = () => {
   <div className="showcase-container">
   <ul>
       <div className="showcase-text">
-      <a className="header-link" href="#"><h1>Cropsey</h1></a>
+      <a className="header-link" href="https://youtu.be/rbu9uBSYqow"><h1>Cropsey</h1></a>
         <section>
           <p>React + Rails + CSS</p>
           <p>a simple responsive site for the NY-based hardcore band "Cropsey"</p>
@@ -19,7 +19,7 @@ const Showcase = () => {
       </div>
 
       <div className="showcase-text">
-        <a className="header-link" href="#"><h1>Four Corners</h1></a>
+        <a className="header-link" href="https://youtu.be/Yv0v8qXB6kA"><h1>Four Corners</h1></a>
         <section>
           <p>React Native</p>
           <p>a client-side travel app that integrates the RESTful Countries API</p>
