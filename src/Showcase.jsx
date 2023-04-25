@@ -7,10 +7,10 @@ const Showcase = () => {
   <div className="showcase-container">
   <ul>
       <div className="showcase-text">
-      <a className="header-link" href="https://youtu.be/rbu9uBSYqow"><h1>Cropsey</h1></a>
+      <a className="header-link" href="https://cropsey.netlify.app/"><h1>Cropsey</h1></a>
         <section>
           <p>React + Rails + CSS</p>
-          <p>a simple responsive site for the NY-based hardcore band "Cropsey"</p>
+          <p>a simple responsive site for the NY-based hardcore band "Cropsey". features an admin panel + full CRUD</p>
         </section>
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
