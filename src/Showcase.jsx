@@ -14,8 +14,8 @@ const Showcase = () => {
           <p>currently: in production</p>
         </section>
         <div className="button-74-container">
-        <a href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
-        <a href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a>
+        <a target="blank" href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
+        <a target="blank" href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a>
       </div>
       </div>
 
