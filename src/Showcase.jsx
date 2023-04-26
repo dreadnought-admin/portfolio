@@ -46,7 +46,7 @@ const Showcase = () => {
       </div>
 
       <div className="showcase-text">
-        <a target="_blank" className="header-link" href="#"><h1>This Website</h1></a>
+        <a target="_blank" className="header-link" href="https://domitian.netlify.app"><h1>This Website</h1></a>
         <section>
           <p>React + CSS</p>
           <p>a single-page react native portfolio. extremely original.</p>
