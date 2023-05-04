@@ -12,37 +12,16 @@ const Showcase = () => {
   <div className="showcase-container">
   <ul>
       <div className="showcase-text">
-<<<<<<< HEAD
       <a className="header-link" href="https://cropsey.netlify.app/"><h1>Cropsey</h1></a>
-=======
       <a target="_blank" className="header-link" href="https://cropsey.netlify.app/"><h1>Cropsey</h1></a>
->>>>>>> 726fc779ab0b922c764a8f5b5fa8122b95464f9f
         <section>
           <p>React + Rails + CSS</p>
           <p>a simple responsive site for the NY-based hardcore band "Cropsey". features an admin panel + full CRUD</p>
           <p>currently: in production</p>
         </section>
         <div className="button-74-container">
-<<<<<<< HEAD
-        <a href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
-        {/* <a href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a> */}
-      </div>
-      </div>
-
-      <div className="showcase-text">
-        <a className="header-link" href="https://youtu.be/tTQwuNJuqkE"><h1>The Black Vinyl Market</h1></a>
-        <section>
-          <p>C# + .NET6 + Blazor</p>
-          <p>an ongoing Blazor e-commerce project</p>
-          <p>currently working on: <strong>user authentication && cart functionality</strong></p>
-        </section>
-        <div className="button-74-container">
-        <a href="https://github.com/dreadnought-admin/BlazorEcommerce"><button className="button-74 confirm_selection">GitHub</button></a>
-        <a href="https://youtu.be/tTQwuNJuqkE"><button className="button-74 confirm_selection">Video Demo</button></a>
-=======
         <a target="blank" href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
         <a target="blank" href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a>
->>>>>>> 726fc779ab0b922c764a8f5b5fa8122b95464f9f
       </div>
       </div>
 
@@ -54,13 +33,10 @@ const Showcase = () => {
           <p>currently: in continued development</p>
         </section>
         <div className="button-74-container">
-<<<<<<< HEAD
         <a href="https://github.com/dreadnought-admin/four-corners"><button className="button-74 confirm_selection">GitHub</button></a>
         {/* <a href="https://www.youtube.com/watch?v=SVjOB3ZN1Ek"><button className="button-74 confirm_selection">Inspiration</button></a> */}
-=======
         <a target="_blank" href="https://github.com/dreadnought-admin/four-corners"><button className="button-74 confirm_selection">GitHub</button></a>
         <a target="_blank" href="https://www.youtube.com/watch?v=SVjOB3ZN1Ek"><button className="button-74 confirm_selection">Inspiration</button></a>
->>>>>>> 726fc779ab0b922c764a8f5b5fa8122b95464f9f
       </div>
       </div>
     
@@ -72,13 +48,10 @@ const Showcase = () => {
           <p>an e-commerce site for the sale of vintage gothic records</p>
         </section>
         <div className="button-74-container">
-<<<<<<< HEAD
         <a href="https://github.com/dreadnought-admin/the-black-market-redux"><button className="button-74 confirm_selection">GitHub</button></a>
         {/* <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a> */}
-=======
         <a target="_blank" href="https://github.com/dreadnought-admin/the-black-market-redux"><button className="button-74 confirm_selection">GitHub</button></a>
         <a target="_blank" href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a>
->>>>>>> 726fc779ab0b922c764a8f5b5fa8122b95464f9f
       </div>
       </div>
 
