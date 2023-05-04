@@ -19,19 +19,20 @@ const About = () => {
           <li>React Native</li>
           <li>TypeScript</li>
           <li>C#</li>
+          <li>.NET6 // ASP.NET</li>
+          <li>Blazor</li>
           <li>Ruby on Rails</li>
         </ul>
         <p className="list-label">Soft Skills:</p>
         <ul>
-          <li>Firebase</li>
           <li>PostgreSQL</li>
           <li>SQL</li>
+          <li>MySQL</li>
           <li>Git</li>
           <li>Postman</li>
         </ul>
         <p className="list-label">And I'm currently learning:</p>
         <ul>
-          <li>C</li>
           <li>Python</li>
           <li>Sass</li>
           <li>MUI</li>

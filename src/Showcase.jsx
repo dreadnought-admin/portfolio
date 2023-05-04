@@ -1,20 +1,38 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 
 
 const Showcase = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
   <div className="showcase-container">
   <ul>
       <div className="showcase-text">
-      <a className="header-link" href="https://youtu.be/rbu9uBSYqow"><h1>Cropsey</h1></a>
+      <a className="header-link" href="https://cropsey.netlify.app/"><h1>Cropsey</h1></a>
         <section>
           <p>React + Rails + CSS</p>
           <p>a simple responsive site for the NY-based hardcore band "Cropsey"</p>
         </section>
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/authenticated-cropsey"><button className="button-74 confirm_selection">GitHub</button></a>
-        <a href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a>
+        {/* <a href="https://www.youtube.com/watch?v=12j5Rk3s9MI"><button className="button-74 confirm_selection">Inspiration</button></a> */}
+      </div>
+      </div>
+
+      <div className="showcase-text">
+        <a className="header-link" href="https://youtu.be/tTQwuNJuqkE"><h1>The Black Vinyl Market</h1></a>
+        <section>
+          <p>C# + .NET6 + Blazor</p>
+          <p>an ongoing Blazor e-commerce project</p>
+          <p>currently working on: <strong>user authentication && cart functionality</strong></p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/BlazorEcommerce"><button className="button-74 confirm_selection">GitHub</button></a>
+        <a href="https://youtu.be/tTQwuNJuqkE"><button className="button-74 confirm_selection">Video Demo</button></a>
       </div>
       </div>
 
@@ -26,7 +44,7 @@ const Showcase = () => {
         </section>
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/four-corners"><button className="button-74 confirm_selection">GitHub</button></a>
-        <a href="https://www.youtube.com/watch?v=SVjOB3ZN1Ek"><button className="button-74 confirm_selection">Inspiration</button></a>
+        {/* <a href="https://www.youtube.com/watch?v=SVjOB3ZN1Ek"><button className="button-74 confirm_selection">Inspiration</button></a> */}
       </div>
       </div>
     
@@ -39,7 +57,7 @@ const Showcase = () => {
         </section>
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/the-black-market-redux"><button className="button-74 confirm_selection">GitHub</button></a>
-        <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a>
+        {/* <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a> */}
       </div>
       </div>
 

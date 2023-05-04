@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
 :root {
   --black: #382b26;
   --white:  #b8c2b9;
@@ -47,7 +50,8 @@ body {
   color: var(--white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Linden Hill', serif;
+  /*font-family: 'Linden Hill', serif;*/
+  font-family: 'Geo', sans-serif;
 
   font-size: 18px;
   overflow-x: hidden;
@@ -295,7 +299,7 @@ hr {
   display: inline-block;
   flex-direction: row;
   margin-right: 3rem;
-  font-family: 'Linden Hill', serif;
+  font-family: 'Geo', sans-serif;
   font-weight: 600;
   font-size: 15px;
   padding: 0 18px;
