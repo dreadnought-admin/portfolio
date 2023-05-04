@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../src/assets/Dom_Alexander_Resume_.pdf';
+import resume from '../src/assets/Dom_Alexander_Resume_2023_.pdf';
 import { Link } from 'react-router-dom';
 
 const About = () => {
