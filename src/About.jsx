@@ -21,7 +21,6 @@ const About = () => {
           <li>C#</li>
           <li>.NET6 // ASP.NET</li>
           <li>Blazor</li>
-          <li>.NET6</li>
           <li>Ruby on Rails</li>
         </ul>
         <p className="list-label">Soft Skills:</p>
