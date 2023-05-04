@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div className="about">
      <article>
-        <p>I'm a full-stack developer who has a penchant for React, TS, and ternary operators.</p>
+        <p>I'm a full-stack developer who has a penchant for TS, C#, and ternary operators.</p>
         
         <p>In February 2023 I graduated from Flatiron School's full-stack software engineering program—but I certainly haven't stopped there.
-          Through their cirriculum I discovered my affinity for programming and we've been hated friends and dear enemies ever since.
+          Through their cirriculum I discovered my affinity for computer science & coding and we've been hated friends and dear enemies ever since.
         </p>
         <p className="list-label">Technical Skills:</p>
         <ul>
@@ -21,6 +21,7 @@ const About = () => {
           <li>C#</li>
           <li>.NET6 // ASP.NET</li>
           <li>Blazor</li>
+          <li>.NET6</li>
           <li>Ruby on Rails</li>
         </ul>
         <p className="list-label">Soft Skills:</p>
