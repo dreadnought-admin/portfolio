@@ -71,7 +71,6 @@ const Showcase = () => {
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/portfolio"><button className="button-74 confirm_selection">GitHub</button></a>      </div>
       </div>
-
     </ul>
     </div>
   )

@@ -22,6 +22,18 @@
 
   --monitor-black: #222323;
   --monitor-white: #f0f6f0;
+
+  --kola-black: #111111;
+  --headings: #A4A4A4;
+  --subtitles: #6C6C6C;
+
+
+
+
+
+  font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
 }
 
 body::-webkit-scrollbar {
@@ -39,7 +51,7 @@ outline: 1px solid slategrey;
 
 
 body {
-  background-color: var(--concrete-black);
+  background-color: var(--kola-black);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,19 +59,19 @@ body {
   margin: 0;
   max-width: 1225px;
   display: grid;
-  color: var(--white);
+  color: var(--headings);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*font-family: 'Linden Hill', serif;*/
-  font-family: 'Geo', sans-serif;
+  /* font-family: 'Geo', sans-serif; */
 
-  font-size: 18px;
+  font-size: 15px;
   overflow-x: hidden;
   position: relative;
 }
 
 h1 {
- color: var(--titan-grey);
+ color: var(--headings);
  text-decoration-color: black;
 }
 
@@ -74,27 +86,27 @@ h3 {
 }
 
 h4 {
-  color: var(--white); 
+  color: var(--subtitles); 
 }
 
 p {
-  color: var(--white);
+  color: var(--subtitles);
   text-decoration-color: white; 
 }
 
 a {
-  color: var(--concrete-white);
+  color: var(--subtitles);
 }
 
 li {
   list-style-type:circle;
-  color: var(--white); 
+  color: var(--subtitles); 
 }
 
 hr {
   margin-top: 35px;
   max-width: 100%;
-  color: var(--white);
+  color: var(--subtitles);
 }
 
 .home {
@@ -103,7 +115,7 @@ hr {
 
 .home > h2 {
   text-decoration: line-through;
-  text-decoration-color: var(--black);
+  text-decoration-color: var(--kola-black);
 }
 
 .about {
@@ -153,36 +165,13 @@ hr {
   font-size: 2rem;
   max-width: 25%;
   max-height: 50%;
-  margin: 0 1rem 1rem 0;
+  margin: 0 .5rem .5rem 0;
 }
 
 .contact-btn-container {
   display: flex;
   flex-direction: row;
 }
-
-/* .contact {
-  flex-wrap: wrap;
-  flex-direction: row;
-  max-width: 100%;
-} 
-.contact > a {
-  max-width: 50%;
-}
-.contact-btn-container {
-  display: flex;
-  flex-direction: row;
-}
-.contactButton {
-  font-size: 5rem;
-  max-width: 25%;
-  max-height: 25px;
-  margin: 0 .5em .5em 0;
-}
-.contact > button {
-  left: 1rem;
-  border: 1px blue solid;
-}    */
 
 /* project section */
 
@@ -196,22 +185,22 @@ hr {
 
 .list-label {
   margin-top: 19px;
-  color: var(--titan-grey);
+  color: var(--headings);
   text-shadow:  1px white; 
 }
 
 /* buttons */
 
 .navButton {
-  color: var(--white);
+  color: var(--subtitles);
   text-decoration: none;
   margin: 0em 1rem .5em 0
 }
 
 .contactButton {
-    color: var(--white);
+    color: var(--subtitles);
     text-decoration: none;
-    margin: 0em 5em 5em 0;
+    margin: 0em 2em 2em 0;
 }
 
 .navButtonBar {
@@ -233,7 +222,7 @@ hr {
   transition: text-shadow 0.2s linear;
 }
 .confirm_selection:hover {
-  text-shadow: 0 0 1px var(--concrete-grey);
+  text-shadow: 0 0 1px var(--headings);
 }
 
 .header-link {
@@ -245,7 +234,7 @@ hr {
 }
 
 .header-link:hover {
-  text-shadow: 0 0 2px var(--titan-grey);
+  text-shadow: 0 0 2px var(--headings);
 }
 
 
@@ -270,16 +259,22 @@ hr {
   display: flex;
   flex-direction: column;
   margin-left: 0px;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .showcase-text > a {
-  max-width: 250px;
+  max-width: 350px;
 }
 
 .showcase-text > a {
-  color: var(--concrete-white);
-  text-decoration-color: var(--concrete-grey);
+  color: var(--headings);
+  text-decoration-color: var(--subtitles);
+}
+
+.showcase-text > a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: .10rem;
 }
 
 .showcase_text > h2 {
@@ -292,22 +287,22 @@ hr {
 }
 
 
-
 /* resume button */
 .button-74 {
-  background-color: var(--titan-grey);
+  background-color: var(--kola-black);
   border: 2px solid var(--titan-black);
   border-radius: 30px;
   box-shadow: var(--white) 2px 2px 0 0;
-  color: var(--concrete-black);
+  color: var(--subtitles);
   cursor: pointer;
   display: inline-block;
   flex-direction: row;
-  margin-right: 3rem;
-  font-family: 'Geo', sans-serif;
+  margin-right: 1.5rem;
+  margin-left: -.10rem;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 15px;
-  padding: 0 18px;
+  font-size: 13px;
+  padding: 0 15px;
   line-height: 40px;
   text-align: center;
   text-decoration: none;
@@ -318,7 +313,7 @@ hr {
 }
 
 .button-74:hover {
-  background-color: var(--titan-grey);
+  background-color: var(--kola-black);
   color: var(--white);
 }
 
