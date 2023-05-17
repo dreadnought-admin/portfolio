@@ -24,6 +24,17 @@ const Showcase = () => {
       </div>
 
       <div className="showcase-text">
+        <a className="header-link" href="#"><h1>Aldgate Chip Shop</h1></a>
+        <section>
+          <p>React + GetForm.io + CSS</p>
+          <p>a strictly client-side app for the Aldgate Chip Shop out of Adelaide, South Australia</p>
+        </section>
+        <div className="button-74-container">
+        <a href="https://github.com/dreadnought-admin/aldgate-chip-shop"><button className="button-74 confirm_selection">GitHub</button></a>
+      </div>
+      </div>
+
+      <div className="showcase-text">
         <a className="header-link" href="https://youtu.be/tTQwuNJuqkE"><h1>The Black Vinyl Market</h1></a>
         <section>
           <p>C# + .NET6 + Blazor</p>
