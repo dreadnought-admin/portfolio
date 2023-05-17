@@ -11,7 +11,7 @@ const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear
   return (
     <div className="navButtonBar">
     <div>
-    <a className="navButton confirm_selection" href="#">{date}</a>
+    <p className="navButton confirm_selection">{date}</p>
      {location.pathname !=="/" &&
         <NavLink className="navButton confirm_selection" to="/">home</NavLink>
       }
