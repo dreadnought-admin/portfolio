@@ -24,7 +24,7 @@ const Showcase = () => {
       </div>
 
       <div className="showcase-text">
-        <a className="header-link" href="#"><h1>Aldgate Chip Shop</h1></a>
+        <a className="header-link" href="https://aldgatechipshop.netlify.app/"><h1>Aldgate Chip Shop</h1></a>
         <section>
           <p>React + GetForm.io + CSS</p>
           <p>a strictly client-side app for the Aldgate Chip Shop out of Adelaide, South Australia</p>
