@@ -60,7 +60,7 @@ const Showcase = () => {
       </div>
     
       <div className="showcase-text">
-      <a className="header-link" href="#"><h1>The Black Market</h1></a>
+      <a className="header-link" href="https://github.com/dreadnought-admin/the-black-market-redux"><h1>The Black Market</h1></a>
         <em><h2>currently under reconstruction</h2></em>
         <section>
           <p>React + TS + Rails + MUI</p>
