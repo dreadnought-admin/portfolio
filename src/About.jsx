@@ -8,7 +8,7 @@ const About = () => {
      <article>
         <p>I'm a full-stack developer who has a penchant for React, TSX, C#, and ternary operators.</p>
         
-        <p>In February 2023 I graduated from Flatiron School's full-stack software engineering program—but I certainly haven't stopped there.
+        <p>In February 2023 I graduated from Flatiron School's full-stack software egineering program—but I certainly haven't stopped there.
           Through their cirriculum I discovered my affinity for computer science & coding and we've been hated friends and dear enemies ever since.
         </p>
         <p className="list-label">Technical Skills:</p>
@@ -19,8 +19,9 @@ const About = () => {
           <li>React Native</li>
           <li>TypeScript</li>
           <li>C#</li>
-          <li>.NET6 // ASP.NET</li>
-          <li>Blazor</li>
+          <li>.NET6</li>
+          <li>Python</li>
+          <li>Django</li>
           <li>Ruby on Rails</li>
         </ul>
         <p className="list-label">Soft Skills:</p>
@@ -33,9 +34,7 @@ const About = () => {
         </ul>
         <p className="list-label">And I'm currently learning:</p>
         <ul>
-          <li>Python</li>
           <li>Sass</li>
-          <li>MUI</li>
         </ul>
         <p>I'm currently searching for any junior developer opportunities and think hearing from you would be just grand.</p>
       </article> 
