@@ -15,7 +15,6 @@ const Home = () => {
         <h2>curated user experiences</h2>
         <h2 style={{textDecoration: "none", color: "#635c6d"}}>cool stuff. <FontAwesomeIcon icon="fa-solid fa-otter" /> </h2>
       </div> 
-      <Spacer />
       <div>
         <About />
       </div>
