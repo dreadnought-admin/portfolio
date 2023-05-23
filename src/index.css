@@ -62,9 +62,6 @@ body {
   color: var(--headings);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*font-family: 'Linden Hill', serif;*/
-  /* font-family: 'Geo', sans-serif; */
-
   font-size: 15px;
   overflow-x: hidden;
   position: relative;
@@ -110,7 +107,7 @@ hr {
 }
 
 .home {
-  margin: 25px 25px 0px 25px;
+  margin: 25px;
 }
 
 .home > h2 {
@@ -119,7 +116,7 @@ hr {
 }
 
 .about {
-  margin: 0px 20px 20px 20px;
+  margin: 20px;
   max-width: 50%;
 }
 

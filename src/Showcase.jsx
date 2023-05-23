@@ -59,7 +59,7 @@ const Showcase = () => {
       </div>
       </div>
     
-      <div className="showcase-text">
+      {/* <div className="showcase-text">
       <a className="header-link" href="https://github.com/dreadnought-admin/the-black-market-redux"><h1>The Black Market</h1></a>
         <em><h2>currently under reconstruction</h2></em>
         <section>
@@ -68,9 +68,9 @@ const Showcase = () => {
         </section>
         <div className="button-74-container">
         <a href="https://github.com/dreadnought-admin/the-black-market-redux"><button className="button-74 confirm_selection">GitHub</button></a>
-        {/* <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a> */}
+        <a href="https://www.youtube.com/watch?v=IuezNswtRfo"><button className="button-74 confirm_selection">Inspiration</button></a>
       </div>
-      </div>
+      </div> */}
 
       <div className="showcase-text">
         <a className="header-link" href="#"><h1>This Website</h1></a>
