@@ -73,10 +73,10 @@ const Showcase = () => {
       </div> */}
 
       <div className="showcase-text">
-        <a className="header-link"><h1>This Website</h1></a>
+        <a className="header-link" target="_blank" herf="https://github.com/dreadnought-admin/portfolio"><h1>This Website</h1></a>
         <section>
           <p>React + CSS</p>
-          <p>a single-page react native portfolio. extremely original.</p>
+          <p>a single-page react portfolio. extremely original.</p>
           <p>here's the github so that you can see the html:</p>
         </section>
         <div className="button-74-container">
